@@ -1,0 +1,25 @@
+.c-experience-imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: flex-end;
+}
+
+.c-experience-imgLetter {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #424243;
+    text-align: end;
+}
+
+@media (max-width: 1300px) {
+    .c-experience-imgLetter {
+        text-align: center;
+        max-width: 600px;
+    }
+    .c-experience-imgContainer {
+        align-items: center;
+        gap: 45px;
+    }
+ }

@@ -1,0 +1,212 @@
+.c-liveDemo-root {
+    width: 1078px;
+    margin: 96px auto 168px;
+}
+@media (max-width: 1170px) { 
+    .c-liveDemo-root {
+        width: 100%;
+        padding: 0px 20px
+    }
+    .c-liveDemo-mainInfoContainer {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .c-liveDemo-mainInfoUppart {
+        flex-direction: column !important;
+        padding: 0px 50px !important;
+
+    }
+    .c-liveDemo-bigTitle {
+        margin-bottom: 12px !important;
+        font-size: 28px !important;
+    }
+    .c-liveDemo-visitorIdContainer {
+        align-items: center !important;
+        gap: 0.5rem !important;
+        padding: 24px 0px !important;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .c-liveDemo-orangeTxt {
+        font-size: 32px !important;
+    }
+    .c-liveDemo-infoContainer1 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .c-liveDemo-root {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .c-liveDemo-mainInfoContainer {
+        width: 100% !important;
+    }
+    .c-liveDemo-mainInfoUppart {
+        padding: 0px !important;
+    }
+    .c-liveDemo-visitorIdContainer {
+        align-items: flex-start !important;
+    }
+    .c-liveDemo-infoContainer1 {
+        align-items: flex-start !important;
+    }
+    .c-liveDemo-smallDescTxt {
+        margin-left: 0px !important;
+    }
+    .c-liveDemo-mainInfoDownpart {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .c-liveDemo-historyRoot {
+        width: 100% !important;
+    }
+    .c-liveDemo-historyContainer {
+        width: 100% !important;
+        gap: none !important;
+        justify-content: space-between;
+    }
+ }
+
+ .c-liveDemo-historyRoot {
+    display: flex;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+ }
+
+
+.c-liveDemo-tag {
+    padding: 4px 8px;
+    text-align: center;
+    background-color: rgb(253,225,218);
+    border-radius: 0.25rem;
+    color: rgb(255,94,36);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.c-liveDemo-bigTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0d102b;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.c-liveDemo-mainInfoContainer {
+    border: 1px solid #e8e8e8;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px hsl(0deg 0% 63% / 15%), 0 0 1px hsl(0deg 0% 91% / 35%);
+}
+
+.c-liveDemo-mainInfoUppart {
+    padding: 50px 0px 40px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.c-liveDemo-visitorIdContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.c-liveDemo-smallTitleTxt {
+    color: #0d102b;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.c-liveDemo-noticeIcon {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.c-liveDemo-orangeTxt {
+    color: #ff5e24;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.c-liveDemo-smallDescTxt {
+    color: #424243;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.c-liveDemo-infoContainer1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.c-liveDemo-threRowInfo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.c-liveDemo-threRowItem {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.c-liveDemo-mainInfoDownpart {
+    padding: 40px 0px 48px;
+}
+
+.c-liveDemo-historyContainer {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    gap: 20px
+}
+
+.c-liveDemo-historyLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 15px 3px 0px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.c-liveDemo-ipTitileTxt {
+    color: #89898a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.c-liveDemo-ipNumTxt {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0d102b;
+}
+
+.c-liveDemo-historyRight {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.c-liveDemo-mapImg {
+    border-radius: 6px;
+    width: 120px;
+    height: 95px;
+}
+
+.c-liveDemo-currentTxt {
+    text-align: center;
+    color: #424243;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}

@@ -1,0 +1,50 @@
+.c-feedbackCard-root {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid hsla(0,0%,82%,.1);
+    cursor: pointer;
+    /*  */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.c-feedbackCard-root:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.c-feedbackCard-downPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.c-feedbackCard-userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.c-feedbackCard-avatarImg {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.c-feedbackCard-userNameTxt {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #38393b;
+}
+
+.c-feedbackCard-userJobTxt {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #424243;
+}
+
+.c-feedbackCard-starIcon {
+    color: #cfcf3f;
+    width: 15px;
+    height: 15px;
+}

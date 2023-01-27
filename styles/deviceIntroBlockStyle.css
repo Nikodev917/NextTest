@@ -1,0 +1,144 @@
+.c-deviceIntro-root {
+    width: 1230px;
+    margin: 176px auto 96px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 1300px) { 
+    .c-deviceIntro-root {
+        width: 100%;
+        padding: 0px 20px ;
+    }
+}
+@media (max-width: 1300px) { 
+    .c-deviceIntro-root {
+       display: block;
+       margin-bottom: 80px;
+    }
+    .c-deviceIntro-video1Container {
+     display: flex;
+     justify-content: center;
+    }
+}
+.c-deviceIntro-titleTxt {
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 95px; */
+    margin-bottom: 1.5rem;
+    color: #0d102b;
+}
+@media (max-width: 690px) { 
+    .c-deviceIntro-titleTxt{
+        font-size: 34px !important;
+        margin-bottom: 16px !important;
+        font-weight: 600 !important;
+    }
+    .c-deviceIntro-descTxt {
+        font-size: 16px !important;
+        margin-bottom: 32px !important;
+    }
+    .c-deviceIntro-btnContainer {
+        flex-direction: column !important;
+    }
+    .c-deviceIntro-btn {
+        width: 100% !important;
+    }
+}
+.c-deviceIntro-video1 {
+    width: 427px;
+    height: 100%;
+}
+
+.c-deviceIntro-descTxt {
+    max-width: 43rem;
+    color: #424243;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+    line-height: 30px;
+}
+
+.c-deviceIntro-btnContainer {
+    display: flex;
+    align-items: center;
+    gap: 2.75rem;
+    margin-bottom: 32px;
+}
+
+.c-deviceIntro-btn {
+    padding: 14px 23px 15px !important;
+}
+
+.c-deviceIntro-TipsContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.c-deviceIntro-Tips {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.c-deviceIntro-TipIcon {
+    color: #ff5e24;
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 3px;
+}
+
+.c-deviceIntro-TipTxt {
+    color: #424243;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.c-deviceIntro-comFlowContainer {
+    /* position: relative; */
+    padding: 40px 0px 120px;
+    /* display: flex;
+    align-items: center;
+    min-width: max-content;
+    animation: ClientsSection-module--marquee--uhRaL 120s linear infinite; */
+}
+.c-deviceIntro-comImg {
+    padding: 0px 20px;
+}
+
+/*  */
+.c-deviceIntro-checkVideoContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.c-deviceIntro-checkVideoTxt {
+    color: #424243;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+.c-deviceIntro-videoIcon {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #424243;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.c-deviceIntro-videoArrow {
+    color: #0c79e4;
+    width: 20px;
+    height: 20px;
+}
+
+.c-deviceIntro-comFlowTitle {
+    color: #2c2c2e;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}

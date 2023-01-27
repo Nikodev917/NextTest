@@ -1,0 +1,24 @@
+.c-orangeBtn-root {
+    cursor: pointer;
+    padding: 9px 20px 10px;
+    color: white;
+    background-color: #0c79e4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.5s;
+    border-radius: 6px;
+    border: 3px solid #0c79e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-orangeBtn-root:hover {
+    opacity: 0.8;
+}
+
+.c-orangeBtn-borderRoot {
+    background: transparent !important;
+    border: 3px solid #0c79e4;
+    color: #0c79e4 !important;
+}

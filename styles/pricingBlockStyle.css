@@ -1,0 +1,209 @@
+.c-pricing-root {
+    position: relative;
+    margin-bottom: 145px;
+}
+
+.c-pricing-black {
+    position: absolute;
+    background: #202021;
+    height: 65px;
+    width: 100%;
+}
+
+.c-pricing-mainRoot {
+    width: 1230px;
+    margin: 0px auto;
+}
+@media (max-width: 1330px) { 
+    .c-pricing-mainRoot {
+        width: 100% !important;
+        padding: 0px 20px;
+    }
+}
+@media (max-width: 1020px) { 
+    .c-pricing-mainContainer {
+        flex-direction: column !important;
+        gap: 4rem !important;
+        padding: 64px 70px !important;
+    }
+    .c-pricing-mainLeftPart {
+        max-width: none !important;
+    }
+    .c-pricing-bigTitle {
+        font-size: 28px !important;
+    }
+    .c-pricing-descTxt {
+        font-size: 16px !important;
+    }
+    .c-pricing-questionContainer {
+        padding: 0px 0px 40px 0px !important;
+    }
+    .c-pricing-sliderContainer {
+        padding: 40px 30px 40px 0px !important;
+    }
+    .c-pricing-startingContainer {
+        padding: 40px 30px 40px 0px !important;
+    }
+ }
+ @media (max-width: 630px) { 
+    .c-pricing-mainContainer {
+        padding: 64px 16px !important;
+        gap: 2rem !important;
+    }
+    .c-pricing-mainRightPart {
+        min-width: 0px !important
+    }
+    .c-pricing-questionContainer {
+        padding-bottom: 0px !important;
+    }
+    .c-pricing-question {
+        font-size: 16px !important;
+        padding: 32px 0px 16px;
+        border-top: 1px solid #e8e8e8 ;
+    }
+    .c-pricing-dollarTxt {
+        font-size: 24px !important;
+    }
+    .c-pricing-sliderContainer {
+        border-top: none !important;
+    }
+    .c-pricing-startingContainer {
+        padding: 0px !important;
+    }
+ }
+
+.c-pricing-mainContainer {
+    z-index: 10;
+    position: relative;
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px hsl(0deg 0% 63% / 15%), 0 0 1px hsl(0deg 0% 91% / 35%);
+    padding: 96px 56px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-pricing-mainLeftPart {
+    max-width: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c-pricing-tag {
+    padding: 4px 5px;
+    text-align: center;
+    background-color: rgb(253,225,218);
+    border-radius: 0.25rem;
+    color: rgb(255,94,36);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    /* width: 120px; */
+}
+
+.c-pricing-bigTitle {
+    color: #434344;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 24px;
+}
+
+.c-pricing-descTxt {
+    color: #424243;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.c-pricing-linkTxt {
+    color: #ff5e24;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.c-pricing-linkIcon {
+    color: #ff5e24;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.c-pricing-mainRightPart {
+    display: flex;
+    flex-direction: column;
+    min-width: 33rem;
+}
+
+.c-pricing-questionContainer {
+    padding: 40px 32px;
+}
+
+.c-pricing-question {
+    color: #434344;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.c-pricing-orangeTxt {
+    color: #ff5d22;
+}
+
+.c-pricing-sliderContainer {
+    padding: 40px 32px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.c-pricing-sliderContainer .MuiSlider-thumb{
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    border: none !important;
+    box-shadow: 0px 1px 8px 1px #7a6d6dcc;
+}
+.c-pricing-sliderContainer .MuiSlider-track {
+    top: 18px;
+    height: 12px;
+    border-radius: 6px;
+    left: 1% !important;
+    color: rgb(255,94,36) !important
+}
+.c-pricing-sliderContainer .MuiSlider-rail {
+    height: 22px;
+    border-radius: 20px;
+    color: rgb(242,242,247) !important;
+    opacity: 1 !important;
+}
+.c-pricing-sliderContainer .MuiSlider-root {
+    height: 11px;
+    color: white !important;
+}
+.c-pricing-sliderContainer .MuiSlider-markLabel {
+    top: -26px !important
+}
+/*  */
+
+.c-pricing-startingContainer {
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.c-pricing-dollarTxt {
+    font-size: 40px;
+    font-weight: 500;
+    color: #434344;
+    display: flex;
+    align-items: center;
+}
+
+.c-pricing-permonthTxt {
+    font-size: 16px;
+    margin-left: 10px;
+}

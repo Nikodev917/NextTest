@@ -1,0 +1,30 @@
+.c-blackCard-root {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid hsla(0,0%,82%,.1);
+    cursor: pointer;
+}
+.c-blackCard-root:hover {
+    /* box-shadow: ; */
+}
+
+.c-blackCard-img {
+    margin-bottom: 10px;
+    width: 50x;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.c-blackCard-title {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #38393b;
+}
+
+.c-blackCardDesc {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #424243;
+}

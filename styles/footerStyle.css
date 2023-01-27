@@ -1,0 +1,311 @@
+.c-footer-root {
+    padding: 64px 40px;
+    /* border-top: 1px solid #e8e8e8; */
+}
+
+.c-footer-upPartContainer {
+    width: 1230px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    padding-bottom: 56px;
+}
+@media (max-width: 1360px) { 
+.c-footer-downPartContainer {
+    width: 100% !important;
+    /* padding: 0px 50px !important; */
+}
+}
+@media (max-width: 1330px) { 
+    .c-footer-root {
+        padding: 64px 70px;
+    }
+    .c-footer-upPartContainer {
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 100% !important;
+    }
+    .c-footer-linkBlock {
+        display: grid !important;
+        grid-template-columns: repeat(3,1fr) !important;
+        row-gap: 1.5rem !important;
+        padding-bottom: 40px;
+        /* border-bottom: 1px solid #e8e8e8; */
+    }
+}
+@media (max-width: 1330px) { 
+    .c-footer-downPartLeft {
+        flex-direction: column !important;
+        gap: 1.25rem !important;
+        align-items: flex-start !important;
+    }
+    /* .c-footer-downPartRight {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+        align-items: flex-end !important;
+    } */
+}
+@media (max-width: 1000px) { 
+    .c-footer-subscribeContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100% !important;
+        max-width: none !important;
+        gap: 3.5rem;
+    }
+    .c-footer-moduleContainer {
+        padding-top: 0px !important;
+    }
+}
+@media (max-width: 690px) {  
+.c-footer-downPartContainer {
+    flex-direction: column;
+    gap: 15px;
+}
+.c-footer-downPartRight {
+    flex-direction: row !important; 
+    /* align-items: flex-start !important; */
+    justify-content: space-between;
+     width: 100% !important
+}
+}
+
+@media (max-width: 670px) { 
+    .c-footer-root {
+        padding: 64px 20px !important;
+    }
+}
+@media (max-width: 630px) { 
+    .c-footer-subscribeContainer {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 500px) { 
+    .c-footer-linkBlock {
+        grid-template-columns: repeat(1,1fr) !important
+    }
+}
+
+.c-footer-linkBlock {
+    display: flex;
+    flex: 1 1;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.c-footer-linkBlockItem {
+
+}
+
+.c-footer-linkBlockItemTitle {
+    color: #262323;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: .01em;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+}
+
+.c-footer-linkBlockItemContent {
+    display: flex;
+    padding: 5px 0;
+    transition-timing-function: ease;
+    color: #434343;
+    cursor: pointer;
+    align-items: center;
+    gap: 5px;
+}
+
+.c-footer-linkBlockItemContent:hover {
+    opacity: 0.8;
+}
+
+.c-footer-subscribeContainer {
+    max-width: 19rem;
+}
+
+.c-footer-subscribeTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    color: #434343;
+}
+
+.c-footer-subscribeDesc {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    color: #434343;
+}
+
+.c-footer-upArrowIcon {
+    width: 30px !important;
+    height: 30px !important;
+    color: #434343;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.c-contactus-sendemail-container {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    margin: 0px auto;
+  }
+
+  .c-contactus-input {
+    background: #fafafa;
+    /* background: red; */
+    display: flex !important;
+    align-content: center !important;
+    border: 1px solid #fafafa !important;
+    border-radius: 10px !important;
+    /* margin-top: 18px !important; */
+    height: 63px !important;
+  }
+  .c-contactus-input.MuiFormControl-root {
+    flex-direction: row;
+  }
+  .c-contactus-input .MuiInputBase-input {
+    padding: 0px 1.5rem !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #434343;
+    height: unset;
+  }
+  .c-contactus-input ::before {
+    border: none !important;
+  }
+  .c-contactus-input:hover:not(.Mui-disabled):before {
+    border: none !important;
+  }
+  .c-contactus-input ::after {
+    border: none!important;
+  }
+  .c-contactus-input:focus {
+    border: 1px solid red;
+  }
+
+  .c-footer-moduleContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 56px;
+  }
+  .c-footer-moduleBrandImg {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+  }
+
+  .c-footer-downPartContainer {
+    width: 1230px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .c-footer-downPartLeft {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+
+  }
+
+  .c-footer-addressContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #434343;
+  }
+
+  .c-footer-mainComTxt {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #434343;
+  }
+
+  .c-footer-supportTxt:hover {
+    opacity: 0.8;
+  }
+
+  .c-footer-downPartRight {
+      display: flex;
+    align-items: center;
+    align-self: flex-end;
+    column-gap: 1.5rem;
+  }
+
+  .c-footer-socialLinkContainer {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .c-footer-socialIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .c-footer-socialIcon:hover {
+    opacity: 0.8;
+  }
+
+  .c-footer-logoImg {
+    height: 30px;
+  }
+
+  /*  */
+  .c-footer-followLinkContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .c-footer-followLink {
+    /* background: #408fcc; */
+    background: #7cb7e1b3;
+    padding: 5px 6px;
+    border-radius: 100%;
+  }
+
+  .c-footer-followIcon {
+    color: #0c79e4;
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .c-footer-contactIcon {
+    color: #434343;
+    width: 17px !important;
+    height: 17px !important;
+    margin-top: 3px;
+  }
+
+  .c-footer-downPartLeft {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    color: #434343;
+
+  }
+
+  .c-footer-downPartRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }

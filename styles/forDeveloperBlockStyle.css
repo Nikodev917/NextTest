@@ -1,0 +1,61 @@
+.c-forDeveloper-root {
+    width: 1250px;
+    margin: 0px auto;
+    padding: 64px 0px 168px;
+}
+@media (max-width: 1330px) { 
+    .c-forDeveloper-root {
+        width: 100% !important;
+        padding: 64px 20px 168px !important;
+    }
+ }
+
+ @media (max-width: 1330px) { 
+    .c-forDeveloper-tag {
+        margin-bottom: 16px !important;
+    }
+    .c-forDeveloper-bigTitle {
+        font-size: 28px !important;
+        margin-bottom: 16px !important;
+    }
+    .c-forDeveloper-DescTxt {
+        font-size: 16px !important;
+        max-width: 35rem !important;
+    }
+ }
+
+.c-forDeveloper-upPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.c-forDeveloper-tag {
+    padding: 4px 8px;
+    text-align: center;
+    background-color: rgb(253,225,218);
+    border-radius: 0.25rem;
+    color: rgb(255,94,36);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.c-forDeveloper-bigTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0d102b;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.c-forDeveloper-DescTxt {
+    color: #424243;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}

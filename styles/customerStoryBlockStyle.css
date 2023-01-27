@@ -1,0 +1,101 @@
+.c-customerStory-root {
+    width: 1230px;
+    margin: 0px auto;
+    padding: 136px 0px 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 1330px) { 
+    .c-customerStory-root {
+        width: 100% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .c-customerStory-introTxt {
+        width: 100%;
+    }
+ }
+ @media (max-width: 670px) {
+    .c-customerStory-root {
+        align-items: self-start  !important;
+        padding-top: 64px;
+        padding-bottom: 64px;
+     }
+     .c-cutomerStory-tag {
+        margin-bottom: 40px !important;
+     }
+     .c-customerStory-comCard {
+        border: 1px solid transparent !important;
+        padding: 0px !important;
+        margin-bottom: 24px !important;
+     }
+     .c-customerStoryComImg {
+        width: 130px;
+        height: 16px;
+     }  
+     .c-customerStory-introTxt {
+        margin-right: 10px;
+        margin-bottom: 16px !important;
+        border-top: 1px solid #e8e8e8;
+        font-size: 1.1rem !important;
+        font-weight: 400;
+        text-align: left !important;
+        padding: 24px 10px 0px 0px;
+     }
+     .c-customer-middleTitle {
+        font-size: 1rem !important;
+     }
+     .c-customer-bottomTitle {
+        font-size: 0.9rem !important;
+     }
+    }
+
+.c-cutomerStory-tag {
+    padding: 4px 3px;
+    text-align: center;
+    background-color: rgb(253,225,218);
+    border-radius: 0.25rem;
+    color: rgb(255,94,36);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    width: 170px;
+    margin-bottom: 64px;
+}
+
+.c-customerStory-comCard {
+    padding: 70px 40px;
+    border-radius: 8px;
+    margin-bottom: 56px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.c-customerStory-comCard:hover {
+    box-shadow: 0 3px 2px rgb(20 20 21 / 2%), 0 0 1px hsl(0deg 0% 45% / 15%), 0 7px 6px rgb(20 20 21 / 4%), 0 12px 10px rgb(20 20 21 / 3%), 0 22px 18px rgb(20 20 21 / 3%), 0 42px 33px rgb(20 20 21 / 2%), 0 100px 80px rgb(20 20 21 / 2%);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+.c-customerStory-introTxt {
+    color: #424242;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 32px;
+    max-width: 1160px;
+    text-align: center;
+}
+
+.c-customer-middleTitle {
+    margin-bottom: 8px;
+    color: #202021;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.c-customer-bottomTitle {
+    color: #424243;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

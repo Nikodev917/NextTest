@@ -1,0 +1,165 @@
+.c-whyFinger-root {
+    width: 1230px;
+    margin: 0px auto;
+    padding-bottom: 104px;
+}
+@media (max-width: 1330px) { 
+    .c-whyFinger-root {
+        width: 100%;
+        padding: 0px 0px 100px;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .c-whyFinger-chartImg {
+        display: none !important;
+    }
+    .c-whyFinger-mainContqainer {
+        width: 100% !important;
+        align-items: center;
+    }
+    .c-whyFinger-upPart {
+        align-items: center;
+        gap: 1rem !important;
+        max-width: none !important;
+    }
+    .c-whyFinger-bigTitle {
+        text-align: center;
+    }
+    .c-whyFinger-bigTitle {
+        font-size: 28px !important;
+    }
+    .c-whyFinger-bigDesc {
+        text-align: center;
+        font-size: 16px !important;
+    }
+    .c-whyFinger-downPart {
+        max-width: none !important;
+        flex-direction: row !important;
+    }
+    .c-whyFinger-divide {
+        width: 1px !important;
+        border-right: 1px solid #d0d0d0;
+    }
+    .c-whyFinger-downPartItem {
+    padding: 0rem 10px !important;
+    }
+}
+
+@media (max-width: 770px) { 
+    .c-whyFinger-mainContqainer {
+        background: #e8e8e8 !important;
+        padding: 4rem 1.25rem !important;
+        align-items: flex-start !important;
+    }
+    .c-whyFinger-upPart {
+        align-items: flex-start !important;
+        margin-bottom: 32px !important;
+    }
+    .c-whyFinger-bigDesc {
+        text-align: left;
+    }
+    .c-whyFinger-downPart {
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 0.3rem !important;
+    }
+    .c-whyFinger-downPartItem {
+        padding: 16px !important;
+        background: hsla(0,0%,98%,.4);
+        border: 1px solid hsla(0,0%,82%,.2);
+        border-radius: 0.4rem;
+    }
+    .c-whyFinger-downPartItemTitle {
+        font-size: 16px !important;
+    }
+    .c-whyFinger-downPartItemDesc {
+        font-size: 14px !important;
+    }
+}
+
+.c-whyFinger-mainContqainer {
+    position: relative;
+    width: 1035px;
+    padding: 64px;
+    background: #fafafa;
+    border: 1px solid hsla(0,0%,82%,.3);
+    padding: 4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-whyFinger-tag {
+    padding: 4px 3px;
+    text-align: center;
+    background-color: rgb(253,225,218);
+    border-radius: 0.25rem;
+    color: rgb(255,94,36);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    width: 170px;
+}
+
+.c-whyFinger-upPart {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    max-width: 37rem;
+}
+
+.c-whyFinger-bigTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0d0d0b;
+}
+
+.c-whyFinger-bigDesc {
+    color: #202021;
+    font-size: 1.25rem;
+    font-weight: 400
+}
+
+.c-whyFinger-downPart {
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.c-whyFinger-downPartItem {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0rem;
+    gap: 0.5rem;
+}
+
+.c-whyFinger-downPartItemTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0d102b;
+}
+
+.c-whyFinger-downPartItemDesc {
+    color: #202021;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+}
+
+.c-whyFinger-divide {
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.c-whyFinger-chartImg {
+    position: absolute;
+    left: 45%;
+    top: 26rem;
+    border-radius: 8px;
+    width: 770px;
+    height: 537px;
+}

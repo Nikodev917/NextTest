@@ -1,0 +1,73 @@
+.c-createIdeal-root {
+    width: 1230px;
+    margin: 0px auto 96px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 75px;
+}
+
+@media (max-width: 1300px) { 
+    .c-createIdeal-root {
+        width: 100%;
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .c-createIdeal-BG {
+        width: 400px !important;
+        height: 420px !important;
+    }
+    .c-createIdeal-rightPart {
+        width: auto !important;
+    }
+    .c-createIdeal-Title{
+        text-align: center
+    }
+}
+
+.c-createIdeal-BG {
+    width: 550px;
+    height: 100%;
+}
+
+.c-createIdeal-rightPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c-createIdeal-Title {
+    font-size: 3rem;
+ font-weight: 600;
+ color: #38393b;
+ max-width: 620px;
+}
+
+.c-createIdeal-itemContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.c-createIdeal-itemIcon {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.c-createIdeal-itemTitleTxt {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #38393b;
+}
+
+.c-createIdeal-itemContentTxt {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #424243;
+}
